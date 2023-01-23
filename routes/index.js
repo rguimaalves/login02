@@ -7,6 +7,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/contato, ContatoController.index')
+router.get('/contato', ContatoController.index)
 
 module.exports = router;
